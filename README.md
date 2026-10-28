@@ -2,7 +2,8 @@
 
 Demand-driven, evidence-backed personal skills shared across agent harnesses.
 Canonical skills live in `skills/`; curated relative symlinks in
-`targets/agents/` and `targets/claude/` provide installable views.
+`targets/agents/` and `targets/claude/` provide installable views. Each harness
+installs only the skills exposed by its target view.
 
 When repeated correction or one costly failure suggests reusable guidance,
 say `make this a skill`. Admission rules live in `AGENTS.md`.
